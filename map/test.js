@@ -7,7 +7,7 @@ Array.prototype.map = function() {
   return NativeMap.apply(this, arguments);
 }
 
-var map = require('./');
+var map = require('./solution.js');
 
 
 
