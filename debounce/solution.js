@@ -3,6 +3,7 @@ var debounce = function(fn, wait) {
 	return function() {
 		var context = this, args = arguments;
 		var later = function(){
+			timeout = null;
 			return fn.apply(context,args);
 		}
 		clearTimeout(timeout);
