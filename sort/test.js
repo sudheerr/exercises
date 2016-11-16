@@ -6,7 +6,7 @@ Array.prototype.sort = function() {
 };
 
 var assert = require('assert');
-var sort = require('./');
+var sort = require('./solution.js');
 
 describe('sort', function() {
 
@@ -15,6 +15,7 @@ describe('sort', function() {
     nativeSortCalled = false;
     var sorted = sort(arr);
     assert(!nativeSortCalled);
+    console.log(sorted);
     assert.deepEqual(sorted, [1, 2, 3, 4, 5]);
   });
 
