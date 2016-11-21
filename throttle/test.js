@@ -1,6 +1,6 @@
 var assert = require('assert');
 var sinon = require('sinon');
-var throttle = require('./');
+var throttle = require('./solution.js');
 
 describe('throttle', function() {
   var clock;
