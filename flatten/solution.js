@@ -19,7 +19,7 @@ function flatten2(arr) {
   var ret = [];
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] instanceof Array) {
-      ret.push.apply(ret, flatten2(arr[i]));
+      ret.push.apply(ret, flatten2(arr[i]));//COOL
     } else {
       ret.push(arr[i]);
     }
