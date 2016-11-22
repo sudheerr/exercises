@@ -1,5 +1,5 @@
 var assert = require('assert');
-var flattenThunk = require('./');
+var flattenThunk = require('./solution.js');
 
 describe('flattenThunk', function() {
 
